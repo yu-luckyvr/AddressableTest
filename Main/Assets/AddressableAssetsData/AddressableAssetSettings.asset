@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  m_DefaultGroup: a94e828590a9add4392bed1bcac0a642
+  m_OptimizeCatalogSize: 0
+  m_BuildRemoteCatalog: 1
+  m_BundleLocalCatalog: 0
+  m_CatalogRequestsTimeout: 0
+  m_DisableCatalogUpdateOnStart: 0
+  m_IgnoreUnsupportedFilesInBuild: 0
+  m_UniqueBundleIds: 1
+  m_NonRecursiveBuilding: 0
+  m_CCDEnabled: 0
+  m_maxConcurrentWebRequests: 500
+  m_ContiguousBundles: 0
+  m_StripUnityVersionFromBundleBuild: 0
+  m_DisableVisibleSubAssetRepresentations: 0
+  m_ShaderBundleNaming: 0
+  m_ShaderBundleCustomNaming: 
+  m_MonoScriptBundleNaming: 0
+  m_MonoScriptBundleCustomNaming: 
+  m_RemoteCatalogBuildPath:
+    m_Id: e49871de0e3873d4aa68faf401e6ab71
+  m_RemoteCatalogLoadPath:
+    m_Id: e49871de0e3873d4aa68faf401e6ab71
+  m_ContentStateBuildPath: 
+  m_BuildAddressablesWithPlayerBuild: 2
+  m_overridePlayerVersion: Main
+  m_GroupAssets:
+  - {fileID: 11400000, guid: a5220d7f34756ec439b1d74af4c6dc5d, type: 2}
+  - {fileID: 11400000, guid: 75eb39ee9cac0994c8e73e3fc8dd60a1, type: 2}
+  - {fileID: 11400000, guid: 0ac9754f4a3957e49a4c7c06f64d1ba2, type: 2}
+  - {fileID: 11400000, guid: 73b05b2b466b2ef4e89b2c77f32667a9, type: 2}
+  - {fileID: 11400000, guid: 61aabf3b71225774384be4fc92f9843e, type: 2}
+  - {fileID: 11400000, guid: ebce50fd3dc2ba04a9aba9826a76ba2e, type: 2}
+  m_BuildSettings:
+    m_CompileScriptsInVirtualMode: 0
+    m_CleanupStreamingAssetsAfterBuilds: 1
+    m_LogResourceManagerExceptions: 1
+    m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
+  m_ProfileSettings:
+    m_Profiles:
+    - m_InheritedParent: 
+      m_Id: 0072d80e21947da4397b9244ab5f0310
+      m_ProfileName: Default
+      m_Values:
+      - m_Id: e884dc30e2d3a3e409503fe4b48dff52
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 81aa0ec1e629c7847952f47702266830
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: 05a02069ebf4c754eb813f71cc2cae98
+        m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+      - m_Id: e49871de0e3873d4aa68faf401e6ab71
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: 856061da26ba48a47af09dfb09042a6e
+        m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+    - m_InheritedParent: 
+      m_Id: f5fefb5a7fd77534caf8ff6e60a37726
+      m_ProfileName: 3rdPartyFolder
+      m_Values:
+      - m_Id: e884dc30e2d3a3e409503fe4b48dff52
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 81aa0ec1e629c7847952f47702266830
+        m_Value: C:/Users/yuepr/OneDrive/Desktop/Project/AddressableTest/CDN/
+      - m_Id: 05a02069ebf4c754eb813f71cc2cae98
+        m_Value: C:/Users/yuepr/OneDrive/Desktop/Project/AddressableTest/CDN/
+      - m_Id: e49871de0e3873d4aa68faf401e6ab71
+        m_Value: C:/Users/yuepr/OneDrive/Desktop/Project/AddressableTest/CDN/
+      - m_Id: 856061da26ba48a47af09dfb09042a6e
+        m_Value: C:/Users/yuepr/OneDrive/Desktop/Project/AddressableTest/CDN/
+    m_ProfileEntryNames:
+    - m_Id: e884dc30e2d3a3e409503fe4b48dff52
+      m_Name: BuildTarget
+      m_InlineUsage: 0
+    - m_Id: 81aa0ec1e629c7847952f47702266830
+      m_Name: LocalBuildPath
+      m_InlineUsage: 0
+    - m_Id: 05a02069ebf4c754eb813f71cc2cae98
+      m_Name: LocalLoadPath
+      m_InlineUsage: 0
+    - m_Id: e49871de0e3873d4aa68faf401e6ab71
+      m_Name: RemoteBuildPath
+      m_InlineUsage: 0
+    - m_Id: 856061da26ba48a47af09dfb09042a6e
+      m_Name: RemoteLoadPath
+      m_InlineUsage: 0
+    m_ProfileVersion: 1
+  m_LabelTable:
+    m_LabelNames:
+    - default
+    - Example
+    - SlideShow
+    - OnLaunch
+    - PreDownload
+    - Home.SlideShow
+    - Home.OnLaunch
+    - Home.PreDownload
+    - Scene
+  m_SchemaTemplates: []
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: 1d7e959e1a86ad44f85264434e5c4052, type: 2}
+  m_InitializationObjects: []
+  m_CertificateHandlerType:
+    m_AssemblyName: 
+    m_ClassName: 
+  m_ActivePlayerDataBuilderIndex: 3
+  m_DataBuilders:
+  - {fileID: 11400000, guid: 024b6c8fe7b7dac43bbe57514ffdef8b, type: 2}
+  - {fileID: 11400000, guid: b3952f75fc3a3364386224cbb26d8feb, type: 2}
+  - {fileID: 11400000, guid: b730c2204684a234db012eb934e16e98, type: 2}
+  - {fileID: 11400000, guid: 3618848c06d9a3042bb23a724b938fd8, type: 2}
+  m_ActiveProfileId: f5fefb5a7fd77534caf8ff6e60a37726
+  m_HostingServicesManager:
+    m_HostingServiceInfos: []
+    m_Settings: {fileID: 11400000}
+    m_NextInstanceId: 0
+    m_RegisteredServiceTypeRefs: []
+    m_GlobalProfileVariablesInfos:
+    - key: PrivateIpAddress
+      value: 192.168.1.153
+    - key: PrivateIpAddress_1
+      value: 172.31.96.1

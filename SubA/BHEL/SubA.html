@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="https://s3.amazonaws.com/vrgbhel/css/jquery.dataTables.css">
+
+    <style>
+        div.container
+        {
+            width: 80%;
+        }
+    </style>
+
+    <script src="https://s3.amazonaws.com/vrgbhel/js/jquery-3.6.0.slim.min.js"></script>
+
+    <script type="text/javascript" charset="utf8" src="https://s3.amazonaws.com/vrgbhel/js/jquery.dataTables.js"></script>
+
+    <script>
+         $(document).ready(function () 
+         {
+             $('#VRG_Bhel').DataTable
+             ({
+                 "order": [[1, "asc"], [3, "asc"]]
+             });
+         });
+     </script>
+
+</head>
+<body>
+
+<table id="VRG_Bhel" class="display compact" style="width:100%">
+     <thead>
+         <tr bgcolor=black style="color:white">
+             <td style="min-width: 15px;     max-width: 15px;"><center><b>Id</b></center></td>
+             <td style="min-width: 115px;    max-width: 115px;"><center><b>Session</b></center></td>
+             <td style="min-width: 55px;     max-width: 55px;"><center><b>Verbose</b></center></td>
+             <td style="min-width: 40px;     max-width: 40px;"><center><b>Frame</b></center></td>
+             <td style="min-width: 25px;     max-width: 25px;"><center><b>Time</b></center></td>
+             <td style="min-width: 130px;    max-width: 300px;"><center><b>Scene</b></center></td>
+             <td style="min-width: 150px;    max-width: 300px;"><center><b>Class</b></center></td>
+             <td style="min-width: 350px;"><center><b>Message</b></center></td>
+         </tr>
+     </thead>
+
+     <tbody>
+
+         <tr bgcolor=#FFFFFF>
+             <td bgcolor=black><font color=grey><center>1</center></font></td>
+             <td><font color=#000000><center><i>2022-04-26 11:46:19</i></center></font></td>
+             <td bgcolor=#AAAAAA><font color=blue><center>DEBUG</center></font></td>
+             <td><font color=#000000><center><i> 883</i></center></font></td>
+             <td><font color=#000000><center><i> 2.409789</i></center></font></td>
+             <td><font color=#000000>VRG_Addressable</font></td>
+             <td><font color=#000000>C:\Users\yuepr\OneDrive\Desktop\Project\AddressableTest\SubA\Assets\_VrGamesDev\BHEL\Scripts\VRG_Bhel -> Do(949)<font color=orange> | VRG_AddressableSerializable -> GetSize()</font></font></td>
+             <td><font color=#000000><font color=green>TesObject</font> | <b>FROM CACHE</b></font></td>
+         </tr>
+
+         <tr bgcolor=#CDCDCD>
+             <td bgcolor=black><font color=grey><center>2</center></font></td>
+             <td><font color=#000000><center><i>2022-04-26 11:46:19</i></center></font></td>
+             <td bgcolor=#AAAAAA><font color=cyan><center>ALL</center></font></td>
+             <td><font color=#000000><center><i> 924</i></center></font></td>
+             <td><font color=#000000><center><i> 2.526813</i></center></font></td>
+             <td><font color=#000000>VRG_Addressable</font></td>
+             <td><font color=#000000>C:\Users\yuepr\OneDrive\Desktop\Project\AddressableTest\SubA\Assets\_VrGamesDev\BHEL\Scripts\VRG_Bhel -> Do(949)<font color=orange> | VRG_AddressableSerializable -> Instantiate()</font></font></td>
+             <td><font color=#000000><font color=green>TesObject</font> | <b>INSTANTIATED</b></font></td>
+         </tr>
+
+         <tr bgcolor=#FFFFFF>
+             <td bgcolor=black><font color=grey><center>3</center></font></td>
+             <td><font color=#000000><center><i>2022-04-26 11:46:19</i></center></font></td>
+             <td bgcolor=#AAAAAA><font color=cyan><center>ALL</center></font></td>
+             <td><font color=#000000><center><i> 1168</i></center></font></td>
+             <td><font color=#000000><center><i> 3.140992</i></center></font></td>
+             <td><font color=#000000>VRG_Addressable - (TesObject)</font></td>
+             <td><font color=#000000>C:\Users\yuepr\OneDrive\Desktop\Project\AddressableTest\SubA\Assets\_VrGamesDev\BHEL\Scripts\VRG_Bhel -> Do(949)<font color=orange> | VRG_AddressableSerializable -> Release()</font></font></td>
+             <td><font color=#000000><font color=green>TesObject</font> | <b>RELEASE</b> memory</font></td>
+         </tr>
+
+         <tr bgcolor=#CDCDCD>
+             <td bgcolor=black><font color=grey><center>4</center></font></td>
+             <td><font color=#000000><center><i>2022-04-26 11:46:19</i></center></font></td>
+             <td bgcolor=#AAAAAA><font color=blue><center>DEBUG</center></font></td>
+             <td><font color=#000000><center><i> 1169</i></center></font></td>
+             <td><font color=#000000><center><i> 3.146248</i></center></font></td>
+             <td><font color=#000000>VRG_Addressable - (TesObject)</font></td>
+             <td><font color=#000000>C:\Users\yuepr\OneDrive\Desktop\Project\AddressableTest\SubA\Assets\_VrGamesDev\BHEL\Scripts\VRG_Bhel -> Do(949)<font color=orange> | VRG_AddressableSerializable -> GetSize()</font></font></td>
+             <td><font color=#000000><font color=green>TesObject2</font> | <b>FROM CACHE</b></font></td>
+         </tr>
+
+         <tr bgcolor=#FFFFFF>
+             <td bgcolor=black><font color=grey><center>5</center></font></td>
+             <td><font color=#000000><center><i>2022-04-26 11:46:19</i></center></font></td>
+             <td bgcolor=#AAAAAA><font color=cyan><center>ALL</center></font></td>
+             <td><font color=#000000><center><i> 1209</i></center></font></td>
+             <td><font color=#000000><center><i> 3.250856</i></center></font></td>
+             <td><font color=#000000>VRG_Addressable - (TesObject)</font></td>
+             <td><font color=#000000>C:\Users\yuepr\OneDrive\Desktop\Project\AddressableTest\SubA\Assets\_VrGamesDev\BHEL\Scripts\VRG_Bhel -> Do(949)<font color=orange> | VRG_AddressableSerializable -> Instantiate()</font></font></td>
+             <td><font color=#000000><font color=green>TesObject2</font> | <b>INSTANTIATED</b></font></td>
+         </tr>
+
+         <tr bgcolor=#CDCDCD>
+             <td bgcolor=black><font color=grey><center>6</center></font></td>
+             <td><font color=#000000><center><i>2022-04-26 11:46:19</i></center></font></td>
+             <td bgcolor=#AAAAAA><font color=cyan><center>ALL</center></font></td>
+             <td><font color=#000000><center><i> 1491</i></center></font></td>
+             <td><font color=#000000><center><i> 3.951295</i></center></font></td>
+             <td><font color=#000000>VRG_Addressable - (TesObject2)</font></td>
+             <td><font color=#000000>C:\Users\yuepr\OneDrive\Desktop\Project\AddressableTest\SubA\Assets\_VrGamesDev\BHEL\Scripts\VRG_Bhel -> Do(949)<font color=orange> | VRG_AddressableSerializable -> Release()</font></font></td>
+             <td><font color=#000000><font color=green>TesObject2</font> | <b>RELEASE</b> memory</font></td>
+         </tr>
+
+         <tr bgcolor=#FFFFFF>
+             <td bgcolor=black><font color=grey><center>7</center></font></td>
+             <td><font color=#000000><center><i>2022-04-26 11:46:19</i></center></font></td>
+             <td bgcolor=#AAAAAA><font color=blue><center>DEBUG</center></font></td>
+             <td><font color=#000000><center><i> 1492</i></center></font></td>
+             <td><font color=#000000><center><i> 3.956952</i></center></font></td>
+             <td><font color=#000000>VRG_Addressable - (TesObject2)</font></td>
+             <td><font color=#000000>C:\Users\yuepr\OneDrive\Desktop\Project\AddressableTest\SubA\Assets\_VrGamesDev\BHEL\Scripts\VRG_Bhel -> Do(949)<font color=orange> | VRG_AddressableSerializable -> GetSize()</font></font></td>
+             <td><font color=#000000><font color=green>TesObject3</font> | <b>FROM CACHE</b></font></td>
+         </tr>
+
+         <tr bgcolor=#CDCDCD>
+             <td bgcolor=black><font color=grey><center>8</center></font></td>
+             <td><font color=#000000><center><i>2022-04-26 11:46:19</i></center></font></td>
+             <td bgcolor=#AAAAAA><font color=cyan><center>ALL</center></font></td>
+             <td><font color=#000000><center><i> 1531</i></center></font></td>
+             <td><font color=#000000><center><i> 4.068748</i></center></font></td>
+             <td><font color=#000000>VRG_Addressable - (TesObject2)</font></td>
+             <td><font color=#000000>C:\Users\yuepr\OneDrive\Desktop\Project\AddressableTest\SubA\Assets\_VrGamesDev\BHEL\Scripts\VRG_Bhel -> Do(949)<font color=orange> | VRG_AddressableSerializable -> Instantiate()</font></font></td>
+             <td><font color=#000000><font color=green>TesObject3</font> | <b>INSTANTIATED</b></font></td>
+         </tr>
+
+         <tr bgcolor=#FFFFFF>
+             <td bgcolor=black><font color=grey><center>9</center></font></td>
+             <td><font color=#000000><center><i>2022-04-26 11:46:19</i></center></font></td>
+             <td bgcolor=#AAAAAA><font color=cyan><center>ALL</center></font></td>
+             <td><font color=#000000><center><i> 2028</i></center></font></td>
+             <td><font color=#000000><center><i> 5.375630</i></center></font></td>
+             <td><font color=#000000>VRG_Addressable - (TesObject3)</font></td>
+             <td><font color=#000000>C:\Users\yuepr\OneDrive\Desktop\Project\AddressableTest\SubA\Assets\_VrGamesDev\BHEL\Scripts\VRG_Bhel -> Do(949)<font color=orange> | VRG_AddressableSerializable -> Release()</font></font></td>
+             <td><font color=#000000><font color=green>TesObject3</font> | <b>RELEASE</b> memory</font></td>
+         </tr>
+
+         <tr bgcolor=#CDCDCD>
+             <td bgcolor=black><font color=grey><center>10</center></font></td>
+             <td><font color=#000000><center><i>2022-04-26 11:46:19</i></center></font></td>
+             <td bgcolor=#AAAAAA><font color=blue><center>DEBUG</center></font></td>
+             <td><font color=#000000><center><i> 2029</i></center></font></td>
+             <td><font color=#000000><center><i> 5.378762</i></center></font></td>
+             <td><font color=#000000>VRG_Addressable - (TesObject3)</font></td>
+             <td><font color=#000000>C:\Users\yuepr\OneDrive\Desktop\Project\AddressableTest\SubA\Assets\_VrGamesDev\BHEL\Scripts\VRG_Bhel -> Do(949)<font color=orange> | VRG_AddressableSerializable -> GetSize()</font></font></td>
+             <td><font color=#000000><font color=green>TesObject</font> | <b>FROM CACHE</b></font></td>
+         </tr>
+
+         <tr bgcolor=#FFFFFF>
+             <td bgcolor=black><font color=grey><center>11</center></font></td>
+             <td><font color=#000000><center><i>2022-04-26 11:46:19</i></center></font></td>
+             <td bgcolor=#AAAAAA><font color=cyan><center>ALL</center></font></td>
+             <td><font color=#000000><center><i> 2062</i></center></font></td>
+             <td><font color=#000000><center><i> 5.483016</i></center></font></td>
+             <td><font color=#000000>VRG_Addressable - (TesObject3)</font></td>
+             <td><font color=#000000>C:\Users\yuepr\OneDrive\Desktop\Project\AddressableTest\SubA\Assets\_VrGamesDev\BHEL\Scripts\VRG_Bhel -> Do(949)<font color=orange> | VRG_AddressableSerializable -> Instantiate()</font></font></td>
+             <td><font color=#000000><font color=green>TesObject</font> | <b>INSTANTIATED</b></font></td>
+         </tr>
+
+         <tr bgcolor=#CDCDCD>
+             <td bgcolor=black><font color=grey><center>12</center></font></td>
+             <td><font color=#000000><center><i>2022-04-26 11:46:19</i></center></font></td>
+             <td bgcolor=#AAAAAA><font color=cyan><center>ALL</center></font></td>
+             <td><font color=#000000><center><i> 2271</i></center></font></td>
+             <td><font color=#000000><center><i> 6.014110</i></center></font></td>
+             <td><font color=#000000>VRG_Addressable - (TesObject)</font></td>
+             <td><font color=#000000>C:\Users\yuepr\OneDrive\Desktop\Project\AddressableTest\SubA\Assets\_VrGamesDev\BHEL\Scripts\VRG_Bhel -> Do(949)<font color=orange> | VRG_AddressableSerializable -> Release()</font></font></td>
+             <td><font color=#000000><font color=green>TesObject</font> | <b>RELEASE</b> memory</font></td>
+         </tr>
+
+         <tr bgcolor=#FFFFFF>
+             <td bgcolor=black><font color=grey><center>13</center></font></td>
+             <td><font color=#000000><center><i>2022-04-26 11:46:19</i></center></font></td>
+             <td bgcolor=#AAAAAA><font color=blue><center>DEBUG</center></font></td>
+             <td><font color=#000000><center><i> 2272</i></center></font></td>
+             <td><font color=#000000><center><i> 6.016748</i></center></font></td>
+             <td><font color=#000000>VRG_Addressable - (TesObject)</font></td>
+             <td><font color=#000000>C:\Users\yuepr\OneDrive\Desktop\Project\AddressableTest\SubA\Assets\_VrGamesDev\BHEL\Scripts\VRG_Bhel -> Do(949)<font color=orange> | VRG_AddressableSerializable -> GetSize()</font></font></td>
+             <td><font color=#000000><font color=green>TesObject2</font> | <b>FROM CACHE</b></font></td>
+         </tr>
+
+         <tr bgcolor=#CDCDCD>
+             <td bgcolor=black><font color=grey><center>14</center></font></td>
+             <td><font color=#000000><center><i>2022-04-26 11:46:19</i></center></font></td>
+             <td bgcolor=#AAAAAA><font color=cyan><center>ALL</center></font></td>
+             <td><font color=#000000><center><i> 2311</i></center></font></td>
+             <td><font color=#000000><center><i> 6.121301</i></center></font></td>
+             <td><font color=#000000>VRG_Addressable - (TesObject)</font></td>
+             <td><font color=#000000>C:\Users\yuepr\OneDrive\Desktop\Project\AddressableTest\SubA\Assets\_VrGamesDev\BHEL\Scripts\VRG_Bhel -> Do(949)<font color=orange> | VRG_AddressableSerializable -> Instantiate()</font></font></td>
+             <td><font color=#000000><font color=green>TesObject2</font> | <b>INSTANTIATED</b></font></td>
+         </tr>
+

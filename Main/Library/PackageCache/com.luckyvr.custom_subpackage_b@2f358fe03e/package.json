@@ -1,0 +1,17 @@
+{
+  "name": "com.luckyvr.custom_subpackage_b",
+  "displayName": "CustomSubPackageB",
+  "version": "0.5.7",
+  "unity": "2020.3",
+  "author": {
+    "name": "YuGao",
+    "email": "yu@getluckyvr.com",
+    "url": "https://www.unity3d.com"
+  },
+  "description": "Custom Package Installer will help installing package into another proejct",
+  "type": "tool",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yu-luckyvr/CustomSubPackageB.git"
+  }
+}

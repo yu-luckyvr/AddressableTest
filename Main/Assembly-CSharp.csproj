@@ -1,0 +1,902 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  <CodeAnalysisRuleSet></CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{05b98bdd-d117-a6aa-c8a2-213488c298d6}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_32;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn></NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn></NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Compile Include="Assets\_VrGamesDev\DDuA\Examples\Scripts\Example_SelfDownload.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Utils\VRG_Move.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Utils\VRG_Destroy.cs" />
+     <Compile Include="Assets\_VrGamesDev\BHEL\Examples\Scripts\Example_Inheritance.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Campaign\Missions\VRG_MissionIntegrity.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Utils\VRG_Delayed.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\UI\VRG_GrowingNumber.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\UI\VRG_GraphicalNumberAdd.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Utils\VRG_DestroyOnSceneLoad.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\System\VRG_OnClickFeedback.cs" />
+     <Compile Include="Assets\_VrGamesDev\Documentation\DDuA\Namespaces\namespace VrGamesDev.DDuA.Examples.cs" />
+     <Compile Include="Assets\_VrGamesDev\DDuA\Examples\Scripts\Example_VRG_AddressableToBhel.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Campaign\Missions\VRG_MissionPageButtonTitles.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\System\VRG_AudioExists.cs" />
+     <Compile Include="Assets\_VrGamesDev\Documentation\DDuA\Namespaces\namespace VrGamesDev.DDuA.cs" />
+     <Compile Include="Assets\_VrGamesDev\5 Seconds\Scripts\VRG_5sDifficulty.cs" />
+     <Compile Include="Assets\_VrGamesDev\Documentation\CORE\Namespaces\namespace VrGamesDev.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\System\VRG_Session.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Utils\VRG_SpawnPrefab.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\UI\VRG_ModifyText.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Utils\VRG_FPS.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\SceneManagment\VRG_Fader.cs" />
+     <Compile Include="Assets\_VrGamesDev\5 Seconds\Scripts\VRG_5sSlider.cs" />
+     <Compile Include="Assets\_VrGamesDev\DDuA\Scripts\VRG_DDuA_CatalogueIdle.cs" />
+     <Compile Include="Assets\_VrGamesDev\5 Seconds\Scripts\VRG_5sLose.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\System\VRG_CameraBackground.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\SceneManagment\VRG_Managers.cs" />
+     <Compile Include="Assets\_VrGamesDev\DDuA\Scripts\VRG_Loader.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Utils\VRG_OpenUrl.cs" />
+     <Compile Include="Assets\_VrGamesDev\DDuA\Examples\Scripts\Example_VRG_Addressable.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Utils\VRG_AttachToCamera.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Skin\VRG_SkinPoolExists.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\UI\VRG_GraphicalNumber_BackWardCountdown.cs" />
+     <Compile Include="Assets\_VrGamesDev\Documentation\CORE\Namespaces\namespace VrGamesDev.FiveSeconds.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\UI\VRG_BillBoard.cs" />
+     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
+     <Compile Include="Assets\_VrGamesDev\DDuA\Scripts\VRG_Slide.cs" />
+     <Compile Include="Assets\_VrGamesDev\DDuA\Scripts\VRG_SlideButton.cs" />
+     <Compile Include="Assets\_VrGamesDev\5 Seconds\Scripts\VRG_5sTimerAdd.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\VRG_Base.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Skin\VRG_SkinPool.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Skin\VRG_SkinApply.cs" />
+     <Compile Include="Assets\_VrGamesDev\DDuA\Examples\Scripts\Example_SceneOnClick.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Utils\VRG_DontDestroyOnLoad.cs" />
+     <Compile Include="Assets\_VrGamesDev\DDuA\Scripts\VRG_Addressable.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\System\VRG_SFx.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Examples\Scripts\Example_GraphicalNumber.cs" />
+     <Compile Include="Assets\_VrGamesDev\DDuA\Scripts\VRG_Scene.cs" />
+     <Compile Include="Assets\_VrGamesDev\DDuA\Scripts\VRG_Destroy_Addressable.cs" />
+     <Compile Include="Assets\_VrGamesDev\5 Seconds\Scripts\VRG_5sTitle.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Campaign\Missions\VRG_MissionPageButton.cs" />
+     <Compile Include="Assets\_VrGamesDev\5 Seconds\Scripts\VRG_5sTimer.cs" />
+     <Compile Include="Assets\_VrGamesDev\BHEL\Examples\Scripts\Example_BhelDetailed.cs" />
+     <Compile Include="Assets\_VrGamesDev\DDuA\Scripts\VRG_AddressableSerializable.cs" />
+     <Compile Include="Assets\_VrGamesDev\DDuA\Scripts\VRG_SlideShow.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\System\VRG_SessionData.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Skin\VRG_UICustom.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Utils\VRG_Scale.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Remote\VRG_Announcement\VRG_AnnouncementStop.cs" />
+     <Compile Include="Assets\_VrGamesDev\BHEL\Scripts\VRH_Bhel_OpenUrl.cs" />
+     <Compile Include="Assets\_VrGamesDev\5 Seconds\Scripts\VRG_5sScore.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\SceneManagment\VRG_FaderPlay.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Skin\VRG_Skin.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\System\VRG_OnMouse.cs" />
+     <Compile Include="Assets\_VrGamesDev\DDuA\Scripts\VRG_DDuA_CatalogueDownload.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Remote\VRG_Announcement\VRG_AnnouncementNews.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Utils\VRG_EnableImage.cs" />
+     <Compile Include="Assets\_VrGamesDev\DDuA\Scripts\VRG_Cache.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Skin\VRG_SkinPoolSon.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\System\VRG_AudioRefresh.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Campaign\VRG_Campaign.cs" />
+     <Compile Include="Assets\_VrGamesDev\BHEL\Scripts\VRG_DataBaseBhel.cs" />
+     <Compile Include="Assets\_VrGamesDev\BHEL\Scripts\VRG_Bhel.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Skin\VRG_UI.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Examples\Scripts\Example_BHELVerbose.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\VRG.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Campaign\Missions\VRG_MissionPages.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\UI\VRG_Exit.cs" />
+     <Compile Include="Assets\_VrGamesDev\DDuA\Examples\Scripts\Example_Catalogue.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\System\VRG_Audio.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Utils\VRG_Unparent.cs" />
+     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+     <Compile Include="Assets\_VrGamesDev\DDuA\Scripts\VRG_DataBaseDDuA.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Skin\VRG_SkinPoolIcon.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\SceneManagment\VRG_UnloadAdditiveScene.cs" />
+     <Compile Include="Assets\_VrGamesDev\DDuA\Scripts\VRG_DDuA.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Skin\VRG_SkinSession.cs" />
+     <Compile Include="Assets\_VrGamesDev\5 Seconds\Scripts\VRG_5sMap.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Skin\VRG_SkinRandom.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Campaign\Missions\VRG_MissionPage.cs" />
+     <Compile Include="Assets\_VrGamesDev\5 Seconds\Scripts\VRG_5sTimerMax.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Remote\VRG_Announcement\VRG_Announcement.cs" />
+     <Compile Include="Assets\_VrGamesDev\Documentation\BHEL\Namespaces\namespace VrGamesDev.BHEL.cs" />
+     <Compile Include="Assets\_VrGamesDev\DDuA\Examples\Scripts\Example_Bullet.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Remote\VRG_Announcement\VRG_AnnouncementPlay.cs" />
+     <Compile Include="Assets\_VrGamesDev\DDuA\Scripts\VRG_AddressablesByLabel.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\SceneManagment\VRG_GoToScene.cs" />
+     <Compile Include="Assets\_VrGamesDev\DDuA\Scripts\VRG_GoToScene_Addressable.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\UI\VRG_GraphicalNumber.cs" />
+     <Compile Include="Assets\_VrGamesDev\BHEL\Examples\Scripts\Example_BhelDo.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Campaign\Missions\VRG_MissionFinish.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\UI\VRG_ToogleIcon.cs" />
+     <Compile Include="Assets\_VrGamesDev\DDuA\Examples\Scripts\Example_Cannon.cs" />
+     <Compile Include="Assets\_TestAsset\TestScriptA.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\UI\VRG_EventSystem.cs" />
+     <Compile Include="Assets\_VrGamesDev\5 Seconds\Scripts\VRG_5sBonus.cs" />
+     <Compile Include="Assets\_VrGamesDev\5 Seconds\Scripts\VRG_5sTimerStop.cs" />
+     <Compile Include="Assets\_VrGamesDev\5 Seconds\Scripts\VRG_5sTimerProxy.cs" />
+     <Compile Include="Assets\_VrGamesDev\DDuA\Scripts\VRG_AddressableScene.cs" />
+     <Compile Include="Assets\_VrGamesDev\BHEL\Scripts\VRG_Bhel_Log.cs" />
+     <Compile Include="Assets\_VrGamesDev\5 Seconds\Scripts\VRG_5sPlay.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Remote\VRG_Remote.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Campaign\Utils\VRG_Credits.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Skin\VRG_SkinLoad.cs" />
+     <Compile Include="Assets\_VrGamesDev\DDuA\Examples\Scripts\Example_WhenComplete.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\SceneManagment\VRG_FaderScene.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Utils\VRG_Rotate.cs" />
+     <Compile Include="Assets\_VrGamesDev\CORE\Scripts\Utils\VRG_Position.cs" />
+     <None Include="Assets\_VrGamesDev\CORE\Fonts\Oswald\README.txt" />
+     <None Include="Assets\_VrGamesDev\CORE\Fonts\Peddana\License - Peddana.txt" />
+     <None Include="Assets\_VrGamesDev\CORE\Fonts\Raleway\License - Raleway.txt" />
+     <None Include="Assets\_VrGamesDev\CORE\Fonts\Montserrat\License - Montserrat.txt" />
+     <None Include="Assets\_VrGamesDev\CORE\Fonts\Oswald\License - Osward.txt" />
+     <None Include="Assets\_VrGamesDev\Third-Party Notices.txt" />
+     <None Include="Assets\_VrGamesDev\CORE\Fonts\Raleway\README.txt" />
+     <None Include="Assets\_VrGamesDev\README.txt" />
+ <Reference Include="UnityEngine">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AIModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ARModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AccessibilityModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AndroidJNIModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AnimationModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AssetBundleModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AudioModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClothModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterInputModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterRendererModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CoreModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CrashReportingModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DSPGraphModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DirectorModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GIModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GameCenterModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GridModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HotReloadModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.IMGUIModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ImageConversionModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputLegacyModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.JSONSerializeModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.LocalizationModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticleSystemModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PerformanceReportingModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PhysicsModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Physics2DModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ProfilerModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ScreenCaptureModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SharedInternalsModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteMaskModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteShapeModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StreamingModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubstanceModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubsystemsModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TLSModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainPhysicsModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextCoreModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextRenderingModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TilemapModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsNativeModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UNETModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UmbraModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityAnalyticsModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityConnectModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityCurlModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityTestProtocolModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VFXModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VRModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VehiclesModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VideoModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VirtualTexturingModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WindModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XRModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.CoreModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.GraphViewModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.PackageManagerUIModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SceneTemplateModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIElementsModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIElementsSamplesModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIServiceModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIServiceModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UnityConnectModule">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Project/AddressableTest/Main/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Common">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="mscorlib">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+ </Reference>
+ <Reference Include="System">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Core">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Linq">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics.Vectors">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.IO.Compression.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.CSharp">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.Win32.Primitives">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="netstandard">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
+ </Reference>
+ <Reference Include="System.AppContext">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Concurrent">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.NonGeneric">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Specialized">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Annotations">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.EventBasedAsync">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Primitives">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.TypeConverter">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Console">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data.Common">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Contracts">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Debug">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.FileVersionInfo">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Process">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.StackTrace">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TextWriterTraceListener">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Tools">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TraceSource">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing.Primitives">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Dynamic.Runtime">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Calendars">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Extensions">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.ZipFile">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.DriveInfo">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Primitives">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Watcher">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.IsolatedStorage">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.MemoryMappedFiles">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Pipes">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.UnmanagedMemoryStream">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Expressions">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Parallel">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Queryable">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http.Rtc">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NameResolution">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NetworkInformation">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Ping">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Primitives">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Requests">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Security">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Sockets">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebHeaderCollection">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets.Client">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ObjectModel">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit.ILGeneration">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit.Lightweight">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Extensions">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Primitives">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Reader">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.ResourceManager">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Writer">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.CompilerServices.VisualC">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Extensions">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Handles">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Numerics">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Formatters">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Json">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Primitives">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Xml">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Claims">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Algorithms">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Csp">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Encoding">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Primitives">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.X509Certificates">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Principal">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.SecureString">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Duplex">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Http">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.NetTcp">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Primitives">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Security">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding.Extensions">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.RegularExpressions">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Overlapped">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks.Parallel">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Thread">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.ThreadPool">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Timer">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ValueTuple">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.ReaderWriter">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XDocument">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlDocument">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlSerializer">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath.XDocument">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="com.luckyvr.custom_subpackage_a.Runtime">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Project/AddressableTest/Main/Library/ScriptAssemblies/com.luckyvr.custom_subpackage_a.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Project/AddressableTest/Main/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Project/AddressableTest/Main/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="LuckyOS.Editor">
+ <HintPath>C:/Users/yuepr/OneDrive/Desktop/Project/AddressableTest/Main/Library/ScriptAssemblies/LuckyOS.Editor.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{fc52cc47-9354-a191-d8a1-cbae56040dfd}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
+      <Project>{1b14f559-44b7-954b-bda7-8a0dda976720}</Project>
+      <Name>Unity.RenderPipelines.Universal.Shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
+      <Project>{a3eecd0b-3857-0219-6203-3a680e947c8c}</Project>
+      <Name>Unity.RenderPipelines.Universal.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.CacheServer.csproj">
+      <Project>{382b5204-39da-4f2f-a327-9b08bb16df3c}</Project>
+      <Name>UnityEditor.CacheServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Addressables.csproj">
+      <Project>{7b8e1452-23c8-e5ae-012f-b01d56fcda43}</Project>
+      <Name>Unity.Addressables</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{8e7e9d2a-e398-5583-b58c-76f908dbbaa8}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
+      <Project>{a6e68dbf-2d9e-e270-ddc0-a71b6a3a1b7b}</Project>
+      <Name>Unity.VisualStudio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RemoteConfig.Editor.csproj">
+      <Project>{616ba642-76bc-c4b9-7e94-7389eaacb870}</Project>
+      <Name>Unity.RemoteConfig.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{e41e2e01-be42-9fdc-2bba-5a3f3679e73a}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{256738bd-4899-71c3-71f8-976862e2ff81}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Searcher.Editor.csproj">
+      <Project>{64c30bf0-4b6c-c2f1-e09b-be02345a52f2}</Project>
+      <Name>Unity.Searcher.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
+      <Project>{7927a24f-61b1-f182-c756-f8edb2a22354}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ResourceManager.csproj">
+      <Project>{a989d898-c090-df46-c766-272dfb06b827}</Project>
+      <Name>Unity.ResourceManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{a56d0a1d-e7a6-d26b-2a10-b6848437fc57}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{2b74472f-2201-b5e6-b767-3533ef75de38}</Project>
+      <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
+      <Project>{9e1c7965-8dfc-3fdf-f66e-26b441fa6630}</Project>
+      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.csproj">
+      <Project>{f9d5f314-65c0-28e3-7518-4e5dbbf02d5e}</Project>
+      <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
+      <Project>{891ad6b4-e77f-123c-dc17-c1f99dddc43a}</Project>
+      <Name>Unity.ShaderGraph.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
+      <Project>{b884d3a1-b0dc-1b26-90b5-b28f585a1fb6}</Project>
+      <Name>Unity.RenderPipelines.Universal.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
+      <Project>{28f6bcd7-597c-7104-5892-cb1a9e934d6c}</Project>
+      <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
+      <Project>{6fadf29c-8139-fef6-9a86-846151f59163}</Project>
+      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{7b99765b-66fd-7697-b14e-9df513dac922}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RemoteConfig.Core.csproj">
+      <Project>{fb79a998-7ecd-ee92-5eac-74895be1b893}</Project>
+      <Name>Unity.RemoteConfig.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
+      <Project>{ed9cc24c-a1b6-c602-1a92-27a82ecfa7ad}</Project>
+      <Name>Unity.Mathematics.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ScriptableBuildPipeline.csproj">
+      <Project>{4edebb4d-9310-d731-504c-b44f88137a2f}</Project>
+      <Name>Unity.ScriptableBuildPipeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Addressables.Editor.csproj">
+      <Project>{eb37498d-3473-8d51-ebe5-30fea8f3497d}</Project>
+      <Name>Unity.Addressables.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ScriptableBuildPipeline.Editor.csproj">
+      <Project>{d82f85ac-0933-4316-e41f-79b0b2e865b7}</Project>
+      <Name>Unity.ScriptableBuildPipeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RemoteConfig.csproj">
+      <Project>{83c3995a-38b2-9c4b-4e7c-d55d2b75df6f}</Project>
+      <Name>Unity.RemoteConfig</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
+      <Project>{7cde7da9-a3be-6d9a-17ce-e34485fb6a7e}</Project>
+      <Name>Unity.RenderPipelines.Core.Editor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

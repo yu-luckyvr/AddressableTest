@@ -1,0 +1,15 @@
+{
+	"name":"com.luckyvr.YuGaoTestPakcage",
+	"displayName":"YuGaoTestPakcage",
+	"version":"0.0.1",
+	"unity":"2020.3",
+	"author": {
+    "name": "Unity",
+    "email": "unity@example.com",
+    "url": "https://www.unity3d.com"
+  	},
+	"description":"test addressable delivery inside of packagemanager",
+	"dependencies":
+	{}
+
+}

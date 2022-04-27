@@ -1,0 +1,10 @@
+[api-updater (non-obsolete-error-filter)] 19/04/2022 15:19:36 : Starting C:/Users/yuepr/OneDrive/Desktop/Work/2020.3.32f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 422.0009ms
+moved types parse time: 36ms
+candidates parse time : 1ms
+C# parse time         : 431ms
+candidates check time : 296ms
+console write time    : 0ms
+

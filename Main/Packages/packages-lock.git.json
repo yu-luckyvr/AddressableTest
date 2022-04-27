@@ -1,0 +1,9 @@
+{
+    "dependencies": [
+        {
+            "name": "com.luckyvr.custom_subpackage_b",
+            "hash": "eed11ece6e0a5804c997795e38af8010f254904e",
+            "url": "https://github.com/yu-luckyvr/CustomSubPackageB.git"
+        }
+    ]
+}
